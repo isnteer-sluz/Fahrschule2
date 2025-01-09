@@ -11,6 +11,6 @@ public class Schüler : Person
 
     public void AddLektion(string lektion)
     {
-        
+        Lektionen.Add(lektion);
     }
 }

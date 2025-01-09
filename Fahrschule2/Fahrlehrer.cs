@@ -13,6 +13,6 @@ public class Fahrlehrer : Person
 
     public void AddSchüler(Schüler schüler)
     {
-        
+        SchülerListe.Add(schüler);
     }
 }

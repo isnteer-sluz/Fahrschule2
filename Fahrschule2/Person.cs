@@ -2,9 +2,9 @@ namespace Fahrschule2;
 
 public class Person
 {
-    private string Name;
-    private string Adresse;
-    
+    public string Name { get; set; }
+    public string Adresse { get; set; }
+
     public Person(string name, string adresse)
     {
         Name = name;
