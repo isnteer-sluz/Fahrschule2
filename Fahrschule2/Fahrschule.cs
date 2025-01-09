@@ -15,16 +15,16 @@ public class Fahrschule
 
     public void AddFahrlehrer(Fahrlehrer fahrlehrer)
     {
-
+        FahrlehrerListe.Add(fahrlehrer);
     }
 
     public void AddSchüler(Schüler schüler)
     {
-
+        SchülerListe.Add(schüler);
     }
 
     public void AddFahrzeug(Fahrzeug fahrzeug)
     {
-
+        FahrzeugListe.Add(fahrzeug);
     }
 }
